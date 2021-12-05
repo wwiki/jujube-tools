@@ -1,0 +1,33 @@
+
+body {
+    font-size: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.gradient_text {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.gradient_background {
+    display: block;
+    width: 100%;
+}
+
+.gradient_background > div {
+    display: inline-block;
+    width: 50%;
+}
